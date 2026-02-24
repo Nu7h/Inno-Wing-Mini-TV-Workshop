@@ -16,13 +16,13 @@ long currentCount = 0;
 long lastCount = 0;
 bool isSystemOn = false;
 
-// --- Debounce Variables (Hidden from attendees' main logic) ---
+// --- Debounce Variables ---
 int lastSteadyState = HIGH;
 int lastFlickerableState = HIGH;
 unsigned long lastDebounceTime = 0;
 
 
-// --- Simplified Display Function for Beginners ---
+// --- Display Function ---
 void displayText(String text, uint16_t color = TFT_WHITE, int textSize = 4) {
   tft.fillScreen(TFT_BLACK);              
   tft.setTextColor(color, TFT_BLACK); 
