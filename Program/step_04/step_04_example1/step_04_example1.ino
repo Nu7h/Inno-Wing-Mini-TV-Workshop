@@ -8,7 +8,7 @@ ESP32Encoder encoder;
 // --- Hardware Pins ---
 #define ROTARY_PINA 12
 #define ROTARY_PINB 14
-#define BUTTON 33
+#define BUTTON 13
 #define TFT_LED 25
 
 // --- Global Variables for Attendees ---
